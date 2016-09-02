@@ -20,6 +20,7 @@
   <modele>jface2004</modele><!-- http://mvnrepository.com/artifact/swt/jface -->
   <module>jface2006</module><!-- https://mvnrepository.com/artifact/org.eclipse/jface -->
   <module>jface2007</module><!-- https://mvnrepository.com/artifact/org.eclipse/jface -->
+  <module>jface2008</module><!-- http://mvnrepository.com/artifact/org.floggy.3rd.org.eclipse/jface -->
   <module>jface2009</module><!-- https://mvnrepository.com/artifact/org.mod4j.org.eclipse/jface -->
   <module>jface2011</module><!--  -->
   <module>jface2012</module><!--  -->
