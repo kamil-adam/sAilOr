@@ -1,20 +1,24 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
  <modelVersion>4.0.0</modelVersion>
- <groupId>pl.writeonly</groupId>
- <artifactId>sAilOr</artifactId>
- <version>1.0-SNAPSHOT</version>
- <packaging>jar</packaging>
- <name>${project.artifactId}</name>
+ <groupId>pl.writeonly.sailor</groupId>
+ <artifactId>sailor</artifactId>
+ <version>0.0.1-SNAPSHOT</version>
+ <packaging>pom</packaging>
+ <name>sAilOr</name>
 
  <properties>
-  <maven.compiler.source>1.8</maven.compiler.source>
-  <maven.compiler.target>1.8</maven.compiler.target>
   <encoding>UTF-8</encoding>
-  <scala.version>2.11.8</scala.version>
+  <maven.compiler.source>1.7</maven.compiler.source>
+  <maven.compiler.target>1.7</maven.compiler.target>
+  <scala.version>[2.10.0,2.11.0)</scala.version>
  </properties>
-
-
+ 
+ <modules>
+    <module>sail</module>
+<!--     <module>jface</module> -->
+<!--     <module>swt</module> -->
+ </modules>
 
  <dependencies>
   <dependency>
