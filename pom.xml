@@ -3,7 +3,7 @@
  <modelVersion>4.0.0</modelVersion>
  <groupId>pl.writeonly.sailor</groupId>
  <artifactId>sailor</artifactId>
- <version>0.0.1-SNAPSHOT</version>
+ <version>0.0.0-SNAPSHOT</version>
  <packaging>pom</packaging>
  <name>sAilOr</name>
 
@@ -16,7 +16,7 @@
  
  <modules>
     <module>sail</module>
-<!--     <module>jface</module> -->
+    <module>jface</module>
 <!--     <module>swt</module> -->
  </modules>
 

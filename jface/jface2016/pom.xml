@@ -7,7 +7,7 @@
 		<artifactId>jface</artifactId>
 		<version>0.0.0-SNAPSHOT</version>
 	</parent>
-	<artifactId>jface2007</artifactId>
+	<artifactId>jface2016</artifactId>
 	<packaging>jar</packaging>
 
 	<dependencies>

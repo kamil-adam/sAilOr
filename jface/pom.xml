@@ -1,31 +1,26 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
- <modelVersion>4.0.0</modelVersion>
- <groupId>pl.writeonly.sailor</groupId>
- <artifactId>jface</artifactId>
- <version>0.0.0-SNAPSHOT</version>
- <packaging>pom</packaging>
- <name>${project.artifactId}</name>
- <description></description>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>pl.writeonly.sailor</groupId>
+		<artifactId>sailor</artifactId>
+		<version>0.0.0-SNAPSHOT</version>
+	</parent>
+	<artifactId>jface</artifactId>
+	<packaging>pom</packaging>
 
- <properties>
-  <encoding>UTF-8</encoding>
-  <maven.compiler.source>1.7</maven.compiler.source>
-  <maven.compiler.target>1.7</maven.compiler.target>
-  <scala.version>2.11.0</scala.version>
- </properties>
 
- <modules>
-  <modele>jface2004</modele><!-- http://mvnrepository.com/artifact/swt/jface -->
-  <module>jface2006</module><!-- https://mvnrepository.com/artifact/org.eclipse/jface -->
-  <module>jface2007</module><!-- https://mvnrepository.com/artifact/org.eclipse/jface -->
-  <module>jface2008</module><!-- http://mvnrepository.com/artifact/org.floggy.3rd.org.eclipse/jface -->
-  <module>jface2009</module><!-- https://mvnrepository.com/artifact/org.mod4j.org.eclipse/jface -->
-  <module>jface2011</module><!-- https://github.com/maven-eclipse/swt-repo/tree/master/org/eclipse/jface/org.eclipse.jface -->
-  <module>jface2012</module><!-- https://github.com/maven-eclipse/swt-repo/tree/master/org/eclipse/jface/org.eclipse.jface -->
-  <module>jface2015</module><!-- https://mvnrepository.com/artifact/org.eclipse.scout.sdk.deps/org.eclipse.jface -->
-  <module>jface2016</module><!-- https://mvnrepository.com/artifact/org.eclipse.scout.sdk.deps/org.eclipse.jface -->
- </modules>
+	<modules>
+		<module>jface2004</module><!-- http://mvnrepository.com/artifact/swt/jface -->
+		<module>jface2006</module><!-- https://mvnrepository.com/artifact/org.eclipse/jface -->
+		<module>jface2007</module><!-- https://mvnrepository.com/artifact/org.eclipse/jface -->
+		<module>jface2008</module><!-- http://mvnrepository.com/artifact/org.floggy.3rd.org.eclipse/jface -->
+		<module>jface2009</module><!-- https://mvnrepository.com/artifact/org.mod4j.org.eclipse/jface -->
+		<module>jface2011</module><!-- https://github.com/maven-eclipse/swt-repo/tree/master/org/eclipse/jface/org.eclipse.jface -->
+		<module>jface2012</module><!-- https://github.com/maven-eclipse/swt-repo/tree/master/org/eclipse/jface/org.eclipse.jface -->
+		<module>jface2015</module><!-- https://mvnrepository.com/artifact/org.eclipse.scout.sdk.deps/org.eclipse.jface -->
+		<module>jface2016</module><!-- https://mvnrepository.com/artifact/org.eclipse.scout.sdk.deps/org.eclipse.jface -->
+	</modules>
 
 </project>
