@@ -16,6 +16,7 @@
  
  <modules>
     <module>sail</module>
+    <module>scala-version</module>
     <module>jface</module>
 <!--     <module>swt</module> -->
  </modules>
