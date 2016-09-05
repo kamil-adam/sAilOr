@@ -1,11 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>pl.writeonly.scala-version</groupId>
-	<artifactId>scala-version-2-10</artifactId>
-	<version>0.0.0-SNAPSHOT</version>
+	<parent>
+		<groupId>pl.writeonly.sailor</groupId>
+		<artifactId>scala-version</artifactId>
+		<version>0.0.0-SNAPSHOT</version>
+	</parent>
+	<artifactId>scala-version_2.10</artifactId>
 	<packaging>jar</packaging>
-	
+
 	<properties>
 		<encoding>UTF-8</encoding>
 		<maven.compiler.source>1.7</maven.compiler.source>
@@ -16,38 +19,62 @@
 		<scalactic.version>3.0.0</scalactic.version>
 		<scalatest.version>3.0.0</scalatest.version>
 		<scala-guice.version>4.1.0</scala-guice.version>
-		
+		<scalajs-library.version>0.6.12</scalajs-library.version>
+
 	</properties>
-	
-		<dependencies>
-			<dependency>
-				<groupId>org.scala-lang</groupId>
-				<artifactId>scala-library</artifactId>
-				<version>${scala.version}</version>
-			</dependency>
 
-			<dependency>
-				<groupId>com.typesafe.scala-logging</groupId>
-				<artifactId>scala-logging_${scala.minor.version}</artifactId>
-        <version>${scala-logging.version}</version>
-			</dependency>
+	<dependencies>
+		<dependency>
+			<groupId>org.scala-lang</groupId>
+			<artifactId>scala-library</artifactId>
+			<version>${scala.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.typesafe.scala-logging</groupId>
+			<artifactId>scala-logging-api_${scala.minor.version}</artifactId>
+			<version>${scala-logging.version}</version>
+		</dependency>
 
-			<!-- Test -->
-			<dependency>
-				<groupId>org.scalactic</groupId>
-				<artifactId>scalactic_${scala.minor.version}</artifactId>
-				<version>${scalactic.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.scalatest</groupId>
-				<artifactId>scalatest_${scala.minor.version}</artifactId>
-				<version>${scalatest.version}</version>
-				<scope>test</scope>
-			</dependency>
-<!-- https://mvnrepository.com/artifact/net.codingwell/scala-guice_2.10 -->
-<dependency>
-    <groupId>net.codingwell</groupId>
-    <artifactId>scala-guice_${scala.minor.version}</artifactId>
-    <version>${scala-guice.version}</version>
-</dependency>
-		</dependencies>
+		<dependency>
+			<groupId>com.typesafe.scala-logging</groupId>
+			<artifactId>scala-logging-slf4j_${scala.minor.version}</artifactId>
+			<version>${scala-logging.version}</version>
+		</dependency>
+
+		<!-- Test -->
+		<dependency>
+			<groupId>org.scalactic</groupId>
+			<artifactId>scalactic_${scala.minor.version}</artifactId>
+			<version>${scalactic.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.scalatest</groupId>
+			<artifactId>scalatest_${scala.minor.version}</artifactId>
+			<version>${scalatest.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/net.codingwell/scala-guice_2.10 -->
+		<dependency>
+			<groupId>net.codingwell</groupId>
+			<artifactId>scala-guice_${scala.minor.version}</artifactId>
+			<version>${scala-guice.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.scala-js</groupId>
+			<artifactId>scalajs-library_${scala.minor.version}</artifactId>
+			<version>${scalajs-library.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.scala-stm</groupId>
+			<artifactId>scala-stm_2.10</artifactId>
+			<version>0.7</version>
+		</dependency>
+		<dependency>
+			<groupId>org.scala-tools.testing</groupId>
+			<artifactId>specs_2.10</artifactId>
+			<version>1.6.9</version>
+		</dependency>
+
+
+	</dependencies>
+</project>
