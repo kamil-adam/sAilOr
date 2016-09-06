@@ -15,7 +15,7 @@
 	</properties>
 
 	<modules>
-		<module>scala-version</module>
+		<module>scala-minor</module>
 		<module>sail</module>
 		<module>jface</module>
 		<!-- <module>swt</module> -->
