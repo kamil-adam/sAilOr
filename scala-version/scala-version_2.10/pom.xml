@@ -74,6 +74,12 @@
 			<artifactId>specs_2.10</artifactId>
 			<version>1.6.9</version>
 		</dependency>
+<!-- https://mvnrepository.com/artifact/com.typesafe.akka/akka-actor_2.10 -->
+<dependency>
+    <groupId>com.typesafe.akka</groupId>
+    <artifactId>akka-actor_2.10</artifactId>
+    <version>2.3.15</version>
+</dependency>
 
 
 	</dependencies>
