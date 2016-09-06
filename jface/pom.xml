@@ -18,7 +18,7 @@
 		<module>jface2008</module><!-- http://mvnrepository.com/artifact/org.floggy.3rd.org.eclipse/jface -->
 		<module>jface2009</module><!-- https://mvnrepository.com/artifact/org.mod4j.org.eclipse/jface -->
 		<module>jface2011</module><!-- https://github.com/maven-eclipse/swt-repo/tree/master/org/eclipse/jface/org.eclipse.jface -->
-		<module>jface2012</module><!-- https://github.com/maven-eclipse/swt-repo/tree/master/org/eclipse/jface/org.eclipse.jface -->
+<!-- 		<module>jface2012</module>https://github.com/maven-eclipse/swt-repo/tree/master/org/eclipse/jface/org.eclipse.jface -->
 		<module>jface2015</module><!-- https://mvnrepository.com/artifact/org.eclipse.scout.sdk.deps/org.eclipse.jface -->
 		<module>jface2016</module><!-- https://mvnrepository.com/artifact/org.eclipse.scout.sdk.deps/org.eclipse.jface -->
 	</modules>
