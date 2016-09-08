@@ -14,7 +14,7 @@
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
 		<scala.minor.version>2.10</scala.minor.version>
-		<scala.version>2.10.6</scala.version>
+		<scala.version>2.10.4</scala.version>
 		<scala-logging.version>2.1.2</scala-logging.version>
 		<scalactic.version>3.0.0</scalactic.version>
 		<scalatest.version>3.0.0</scalatest.version>
